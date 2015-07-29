@@ -1,5 +1,5 @@
 import hashlib
-from {{cookiecutter.repo_name}} import db
+from {{cookiecutter.project_name}} import db
 from flask_restful import abort
 
 

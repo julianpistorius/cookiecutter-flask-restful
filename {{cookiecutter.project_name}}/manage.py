@@ -7,7 +7,7 @@ sys.path.append(basepath)
 
 from flask.ext.script import Manager, Server
 from flask.ext.migrate import Migrate, MigrateCommand
-from {{cookiecutter.repo_name}} import app, db
+from {{cookiecutter.project_name}} import app, db
 
 
 migrate = Migrate(app, db)

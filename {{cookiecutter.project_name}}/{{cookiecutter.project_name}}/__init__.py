@@ -16,7 +16,7 @@ app.config.from_pyfile('config.py')
 db = SQLAlchemy(app)
 jwt = JWT(app)
 
-from {{cookiecutter.repo_name}}.v1.models.user import User
+from {{cookiecutter.project_name}}.v1.models.user import User
 
 
 @app.errorhandler(404)

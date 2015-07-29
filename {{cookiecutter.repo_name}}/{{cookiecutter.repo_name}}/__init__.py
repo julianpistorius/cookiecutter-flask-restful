@@ -1,3 +1,11 @@
+"""Boilerplate app to scaffold a Flask RESTful application
+
+   This app is cookiecutter compatible boilerplate application
+   that can be used to scaffold new applications.
+
+   moduleauthor:: {{cookiecutter.full_name}} <{{cookiecutter.email}}>
+
+"""
 from flask import Flask, jsonify
 from flask_restful import abort
 from flask.ext.sqlalchemy import SQLAlchemy

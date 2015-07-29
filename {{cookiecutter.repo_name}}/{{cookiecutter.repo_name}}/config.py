@@ -2,6 +2,6 @@ import os
 
 basepath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
-SQLALCHEMY_URI = 'sqlite:///' + os.path.join(basepath, 'app.db')
+SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basepath, 'app.db')
 SECRET_KEY = 'Your Secret Key!!!'
 JWT_AUTH_URL = '/auth/token'

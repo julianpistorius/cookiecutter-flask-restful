@@ -2,8 +2,7 @@
     "full_name": "Siddharth Yadav",
     "email": "siddharth_yadav@outlook.com",
     "github_username": "xk0nsid",
-    "project_name": "Flask RESTful Template",
-    "repo_name": "boilerplate",
+    "project_name": "boilerplate",
     "project_short_description": "A boilerplate code to scaffold Flask RESTful applications",
     "version": "0.1.0"
 }

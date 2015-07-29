@@ -5,7 +5,6 @@ from flask_restful import Api, Resource, abort
 from flask_restful import reqparse, fields, marshal_with
 from flask_jwt import jwt_required
 from {{cookiecutter.repo_name}}.v1.models.user import User
-from {{cookiecutter.repo_name}}.v1.models.post import Post
 from {{cookiecutter.repo_name}} import db
 
 

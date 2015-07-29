@@ -19,6 +19,11 @@ jwt = JWT(app)
 from {{cookiecutter.repo_name}}.v1.models.user import User
 
 
+@app.errorhandler(404)
+def not_found(e):
+    return jsonify({"message": "Resource not found."}), 404
+
+
 @app.errorhandler(400)
 def bad_request(e):
     return jsonify({"message": "Please check request parameters."}), 400

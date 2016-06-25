@@ -46,7 +46,7 @@ def load_user(payload):
 
 
 # Get Blueprints from views
-from {{cookiecutter.repo_name}}.v1.views.users import user_bp
+from {{cookiecutter.role_name}}.v1.views.users import user_bp
 
 # Register version 1 blueprints
 app.register_blueprint(user_bp, url_prefix='/v{api_version}/users/'.format(api_version=user_bp.API_VERSION))
